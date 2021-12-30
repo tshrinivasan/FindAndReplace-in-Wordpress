@@ -9,7 +9,7 @@ Traceback (most recent call last):
     return self.single_request(host, handler, request_body, verbose)
   File "C:\Users\Rksha\AppData\Local\Programs\Python\Python310\lib\xmlrpc\client.py", line 1196, in single_request
     raise ProtocolError(
-xmlrpc.client.ProtocolError: <ProtocolError for www.wordpress.com/home/python.sport.blog: 301 Moved Permanently>
+xmlrpc.client.ProtocolError: <ProtocolError for www.python.sport.blog/RPC2: 301 Moved Permanently>
 
 During handling of the above exception, another exception occurred:
 
@@ -17,4 +17,4 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
   File "C:\Users\Rksha\AppData\Local\Programs\Python\Python310\lib\site-packages\wordpress_xmlrpc\base.py", line 27, in __init__
     raise ServerConnectionError(repr(e))
-wordpress_xmlrpc.exceptions.ServerConnectionError: <ProtocolError for www.wordpress.com/home/python.sport.blog: 301 Moved Permanently>
+wordpress_xmlrpc.exceptions.ServerConnectionError: <ProtocolError for www.python.sport.blog/RPC2: 301 Moved Permanently>
